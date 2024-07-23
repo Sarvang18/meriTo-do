@@ -1,0 +1,65 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+main{
+    max-width: 800px;
+    margin: auto;
+}
+
+main{
+    border: 2px solid black;
+    border-radius: 1rem;
+    padding: 16px 24px;
+}
+
+.mainmain input{
+    width: 400px;
+    height: 36px;
+    outline: none;
+    
+    
+    font-size: 24px;
+    padding:10px 20px;
+}
+
+.addBTN{
+    width: 100px;
+    height: 36px;
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.taskHolder{
+    font-size: 20px;
+    max-width: 720px;
+    cursor: pointer;
+
+    /* overflow: hidden; */
+    overflow-wrap: anywhere;
+}
+
+.deleteTask{
+
+    margin-left: 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 50%;
+    color: rgb(0, 0, 0);
+
+    padding: 2px 4px;
+    line-height: 24px;
+    font-size: 24px;
+}
+
+.deleteTask:hover{
+    background-color: rgb(176, 176, 176);
+    
+}
+
+.btmMargin{
+    margin-bottom: 6px;
+}
