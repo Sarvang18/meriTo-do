@@ -27,10 +27,13 @@ addTaskBTN.addEventListener('click',()=>{
     
 
     task.addEventListener('click',(evt)=>{
-        console.log(taskText)
         task.style.textDecoration='line-through'
-        task.style.opacity=0.3
+        task.style.backgroundColor='green'
+        task.style.opacity='0.4'
+        task.style.color='black'
         deleteTask.innerText='✔'
     })
 })
+
+
 

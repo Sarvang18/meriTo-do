@@ -5,6 +5,18 @@
     font-family: sans-serif;
 }
 
+.mainHeading{
+    text-align: center;
+    font-size: 48px;
+    user-select: none;   
+    transition: 0.2s ease-out;
+}
+
+.mainHeading:hover{
+    -webkit-text-stroke: 3px rgb(165, 71, 252);
+    color:transparent;
+}
+
 main{
     max-width: 800px;
     margin: auto;
@@ -14,6 +26,7 @@ main{
     border: 2px solid black;
     border-radius: 1rem;
     padding: 16px 24px;
+    background-color: bisque;
 }
 
 .mainmain input{
@@ -61,5 +74,8 @@ main{
 }
 
 .btmMargin{
+    background-color: rgba(249, 116, 55, 0.439);
+    padding: 10px 20px;
     margin-bottom: 6px;
 }
+
